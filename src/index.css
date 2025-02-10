@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 105px;
+  height: 105px;
+}
+
+.board {
+  width: 105px;
+}
+
+.status {
+  width: 105px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.game-info {
+  text-align: left;
+}
+
+.game {
+  display: flex;
+}
